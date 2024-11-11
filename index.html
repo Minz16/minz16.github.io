@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="minesweeper.js" defer></script>
+    <link rel="stylesheet" href="minesweeper.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Minesweeper</title>
+</head>
+<body>
+    <div id="menu">
+        <p id="minecounter">00</p>
+        <button class="menubuttons" onclick="UI()">New Game</button>
+        <button class="menubuttons" onclick="setMode(true)">🚩</button>
+        <button class="menubuttons" onclick="setMode(false)">💣</button>
+        <button onClick="window.location.reload();">Refresh Page</button>
+        <button onclick="deletus()">"ARRRRH</button>
+        <button id="toggleButton" onclick="toggleMobile()">💻</button>
+    </div>
+    <div id="gameField">
+
+    </div>
+</body>
+</html>

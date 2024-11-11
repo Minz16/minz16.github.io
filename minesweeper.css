@@ -1,0 +1,73 @@
+.menubuttons {
+    width: 200px;
+    height: 120px;
+}
+
+#minecounter {
+    width: 200px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#minesweeper td {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+
+    /*Make unselectable*/
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#minesweeper {
+    border-collapse: collapse;
+    background-color: hsl(0, 0%, 85%);
+}
+.zero {
+    color: transparent;
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: hsl(84, 100%, 40%);
+}
+
+.three {
+    color: red;
+}
+
+.four {
+    color: darkblue;
+}
+
+.five {
+    color: brown;
+}
+
+.six {
+    color: cyan;
+}
+
+.seven {
+    color: purple;
+}
+
+.eight {
+    color: black;
+}
